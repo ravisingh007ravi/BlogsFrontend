@@ -52,7 +52,7 @@ function Post() {
     try {
       const blogsDataFromDataBase = async () => {
 
-        const url = `https://fixed-invented-beechnut.glitch.me/${category || 'AllBlogs'}`;
+        const url = `https://fixed-invented-beechnut.glitch.me/allBlogs/${category || 'AllBlogs'}`;
 
         const data = await axios.get(url, {
           headers: {
