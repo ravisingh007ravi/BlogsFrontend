@@ -55,7 +55,7 @@ function DetailsViewPost() {
 
     try {
       const blogDataById = async () => {
-        const url = `http://localhost:5000/blogs/${id}`;
+        const url = `https://fixed-invented-beechnut.glitch.me/blogs/${id}`;
 
         const data = await axios.get(url, {
           headers: {

@@ -52,7 +52,7 @@ function Post() {
     try {
       const blogsDataFromDataBase = async () => {
 
-        const url = `http://localhost:5000/allBlogs/${category || 'AllBlogs'}`;
+        const url = `https://fixed-invented-beechnut.glitch.me/${category || 'AllBlogs'}`;
 
         const data = await axios.get(url, {
           headers: {

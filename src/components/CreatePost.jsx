@@ -58,7 +58,7 @@ function CreatePost() {
 
         e.preventDefault();
 
-        const url = 'http://localhost:5000/blog';
+        const url = 'https://fixed-invented-beechnut.glitch.me/blog';
 
         try {
 

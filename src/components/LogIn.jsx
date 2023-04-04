@@ -68,7 +68,7 @@ function LogIn({isUserAuthentication}) {
     const submitLogInDataBase = async (e) => {
         e.preventDefault()
         try {
-            const url ='http://localhost:5000/logIn';
+            const url ='https://fixed-invented-beechnut.glitch.me/logIn';
             
             let logInUser = await axios.post(url, logInData)
             let name = logInUser.data.loggedAuthor.name;

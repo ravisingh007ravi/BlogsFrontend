@@ -65,7 +65,7 @@ function SignUp() {
         e.preventDefault()
         try {
 
-            const url = 'http://localhost:5000/authors';
+            const url = 'https://fixed-invented-beechnut.glitch.me/authors';
 
             const user = await axios.post(url, signUpData)
             if (user.status === false) window.alert("invalid data")

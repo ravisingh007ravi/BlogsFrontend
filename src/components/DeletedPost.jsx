@@ -41,7 +41,7 @@ function DeletedPost() {
 
     e.preventDefault();
 
-    const url = `http://localhost:5000/blogs/${id}`;
+    const url = `https://fixed-invented-beechnut.glitch.me/blogs/${id}`;
 
     try {
 
