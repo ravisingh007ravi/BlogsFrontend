@@ -34,7 +34,7 @@ function DeletedPost() {
   const [post, setPost] = useState({authorId: `${localStorage.getItem("UserId")}`})
 
  
-   
+   console.log(setPost);
   
   
   const submitPostDataBase = async (e) => {
