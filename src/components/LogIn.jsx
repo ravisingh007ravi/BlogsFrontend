@@ -7,6 +7,7 @@ import axios from 'axios';
 import { DataContext } from './DataProvider';
 
 
+
 const Components = styled(Box)`
     border-radius: 14px;
     background-color:white;
@@ -94,7 +95,7 @@ function LogIn({isUserAuthentication}) {
             <Box>
                 <Image src={Logo} alt="LogoSignUp"/>
                 <Wrapper>
-                    <TextField name='userName' onChange={changeLogInData}  label="Enter EmailId" variant="standard" />
+                    <TextField name='userName' onChange={changeLogInData}  label= "Enter EmailId" variant="standard" />
                     <TextField className='abc' name='password' type="password" onChange={changeLogInData} label="Enter Password" variant="standard" />
                     <LoginButton onClick={submitLogInDataBase} variant="contained" >LogIn</LoginButton>
                     <SignButton ><SignUpLink to='/SignUp'>CREATE AN ACCOUNT</SignUpLink></SignButton>
