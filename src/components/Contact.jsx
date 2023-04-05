@@ -2,7 +2,7 @@ import { Box, Input, TextField, Button, styled } from '@mui/material';
 import {Link} from 'react-router-dom';
 
 const Container = styled('form')({
-margin:  '200px 200px 0 200px'
+margin:  '200px 50px 0 50px'
 });
 
 const InputBox = styled(Input)`
