@@ -24,7 +24,7 @@ function App() {
     <DataProvider>
       <BrowserRouter>
         <Routes>
-          
+
           <Route path='SignUp' element={<SignUp />} />
           <Route path='LogIn' element={<LogIn isUserAuthentication={isUserAuthentication} />} />
 
@@ -37,7 +37,9 @@ function App() {
             <Route path='/UpdateBlogs/:id' element={<UpdateBlogs />} />
             <Route path='/DeletedPost/:id' element={<DeletedPost />} />
           </Route>
-            <Route path='/*' element={<NotFoundPage />} />
+          <Route path='/SignUp' element={<SignUp />} />
+          <Route path='LogIn' element={<LogIn />} />
+          <Route path='/*' element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
     </DataProvider>
