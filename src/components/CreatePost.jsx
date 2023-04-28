@@ -26,6 +26,7 @@ const StyleFormControl = styled(FormControl)`
 
 const StyleInput = styled(InputBase)`
     flex:1;
+    width: 95%;
     margin: 0 10px;
     font-size:25px
 `;
